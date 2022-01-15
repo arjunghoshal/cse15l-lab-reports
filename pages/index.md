@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: page-fullwidth
 header: no
 permalink: /index.html
 homepage: true
 title: "Arjun Ghoshal CSE 15L"
----
+--- -->
 
 # Arjun Ghoshal CSE 15L  
 
