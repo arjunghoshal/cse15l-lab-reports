@@ -35,3 +35,8 @@ Setting an SSH key will allow you to not enter your password every time you conn
 A private and public key will have been generated in the `.ssh/` directory. `cd` to the `.ssh/` directory and transfer the id_rsa.pub file to the remote machine's `~/.ssh/authorized_keys` file using `scp`. The process is shown below.  
 ![](/images/lab-report-1-step-5-2.png)  
 As can be seen in the image, after this, you should be able to log in to the remote machine without a password
+
+## Step 6: Optimizing Remote Running
+In order to make our programming process more efficient, we must make the remote running process faster. We have already done so with the ssh key step, however, further improvements can be made.  
+![](/images/lab-report-1-step-6.png)  
+As can be seen above, I have made my process more efficient by combining the transfer, login, compiling, and running steps into one command. Thus my running process is comprised of just 2 keystrokes: pressing up arrow on the terminal, and pressing enter. This is fast, but you can make it even more efficient in other ways, such as creating a script for easy running and testing.
