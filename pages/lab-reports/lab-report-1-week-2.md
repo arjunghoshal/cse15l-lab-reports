@@ -2,7 +2,7 @@
 
 ## Step 1: Installing VSCode  
 To install VSCode, download it from the [VSCode Site](https://code.visualstudio.com/). You should see a webpage similar to the one shown below.  
-![](/images/lab-report-1-step-1-1.PNG)  
+![](images/lab-report-1-step-1-1.PNG)  
   
 Click the download button, open the installer, and follow the instructions to download VSCode. When the following screen shows, make sure to select the outlined options.  
 ![](/images/lab-report-1-step-1-2.png)  
