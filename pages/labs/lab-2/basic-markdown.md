@@ -3,7 +3,7 @@
 _Hello World!_  
 **Hello World!**  
 [Hello World!](https://www.helloworld.org/)  
-![Image](/images/helloworld.png)  
+![](/images/helloworld.png)  
 >Hello World!  
 * Hello World!  
 * Hello World!  
