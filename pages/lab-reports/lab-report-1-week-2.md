@@ -13,7 +13,7 @@ Finally, open VSCode. You should see a screen like this:
 ## Step 2: Remotely Connecting
 Use ssh to connect to the `ieng` servers in the CSE basement. Use the following command in the VSCode terminal to connect:  
 `ssh cs15lwi22ann@ieng6.ucsd.edu`  
-![](/images/lab-report-1-step-2.PNG)
+![](/images/lab-report-1-step-2.PNG)  
 Enter your password. If it asks for confirmation the first time, say yes.  
 
 ## Step 3: Trying Some Commands
