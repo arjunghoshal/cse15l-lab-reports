@@ -11,8 +11,11 @@ title: "Arjun Ghoshal CSE 15L"
 
 [Lab 1](pages/labs/lab-1/summary.html)  
 [Lab 2](pages/labs/lab-2/summary.html)  
+[Lab 3](pages/labs/lab-3/summary.html)  
+[Lab 4](pages/labs/lab-4/summary.html)  
 
 ___  
 
 ## Lab Reports  
 [Lab Report 1 Week 2](pages/lab-reports/lab-report-1-week-2.html)  
+[Lab Report 2 Week 4](pages/lab-reports/lab-report-2-week-4.html)  
