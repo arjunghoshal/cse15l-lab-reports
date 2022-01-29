@@ -61,4 +61,4 @@ We fixed the bug by making the following code change:
   
 ![Code Diff 1](/cse15l-lab-reports/images/lab-report-2-diff-3.PNG)
 
-The input had more than extra markdown at the end of the file. The bug in the code made it continuously look for another set of brackets in a link, and since it had not reached the end of the file, the program entered an infinite loop. This led to the symptom of hanging during runtime and eventually running out of memory space. As can be seen in the code, we fixed the bug by checking for when no more opening brackets are found and exiting the loop.
+The input had an image in markdown format, which matches the link format except for an exclamation point at the beginning. The bug was that the code did not account for this, so any images would be detected as links as can be seen in the symptom image. As can be seen in the code, we fixed this issue by checking for exclamation points before the first bracket.
