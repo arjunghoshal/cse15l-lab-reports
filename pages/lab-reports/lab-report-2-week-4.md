@@ -10,7 +10,7 @@ Here is the [test file](/cse15l-lab-reports/pages/labs/lab-3/breaking_tests.md) 
 When we ran the test, we would find the following symptom:  
   
 ![Symptom 1-1](/cse15l-lab-reports/images/lab-report-2-symptom-1-1.PNG)  
-  
+![Symptom 1-2](/cse15l-lab-reports/images/lab-report-2-symptom-1-2.PNG)  
 
 We fixed the bug by making the following code change:  
 
