@@ -13,6 +13,8 @@ When we ran the test, we would find the following symptom:
 ![Symptom 1-2](/cse15l-lab-reports/images/lab-report-2-symptom-1-2.PNG)  
 
 We fixed the bug by making the following code change:  
+  
+![Code Diff 1](/cse15l-lab-reports/images/lab-report-2-diff-1.PNG)
 
 The input had more than one pair of parentheses in the link url. Since the code was initially looking for the first closing parentheses after the link's opening parentheses, it would return only up to the first closing parentheses. This caused the symptom of having the returned link cut short. The bug was that the code was not accounting for nested parentheses, causing the symptom of an incorrectly parsed link. As can be seen from the code, we fixed the bug by counting any extra pairs of parentheses in the link url until we found the matching closing parentheses for the link.
 ## Code Change #2: Ending Text  
