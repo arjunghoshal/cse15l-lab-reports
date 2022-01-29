@@ -41,4 +41,24 @@ We fixed the bug by making the following code change:
   
 ![Code Diff 1](/cse15l-lab-reports/images/lab-report-2-diff-2.PNG)
 
-The input had more than one pair of parentheses in the link url. Since the code was initially looking for the first closing parentheses after the link's opening parentheses, it would return only up to the first closing parentheses. This caused the symptom of having the returned link cut short. The bug was that the code was not accounting for nested parentheses, causing the symptom of an incorrectly parsed link. As can be seen from the code, we fixed the bug by counting any extra pairs of parentheses in the link url until we found the matching closing parentheses for the link.
+The input had more than extra markdown at the end of the file. The bug in the code made it continuously look for another set of brackets in a link, and since it had not reached the end of the file, the program entered an infinite loop. This led to the symptom of hanging during runtime and eventually running out of memory space. As can be seen in the code, we fixed the bug by checking for when no more opening brackets are found and exiting the loop.  
+  
+## Code Change #3: Images  
+The next bug we found was that any images in the markdown file would be detected as links. For example:  
+  
+```  
+# title 
+
+![link](page.com)  
+```  
+
+Here is the [test file](/cse15l-lab-reports/pages/labs/lab-3/test-file6.md) with the failure inducing input. Here is it [rendered](/cse15l-lab-reports/pages/labs/lab-3/test-file6.html).  
+When we ran the test, we would find the following symptom:  
+  
+![Symptom 1-1](/cse15l-lab-reports/images/lab-report-2-symptom-3.PNG)  
+
+We fixed the bug by making the following code change:  
+  
+![Code Diff 1](/cse15l-lab-reports/images/lab-report-2-diff-3.PNG)
+
+The input had more than extra markdown at the end of the file. The bug in the code made it continuously look for another set of brackets in a link, and since it had not reached the end of the file, the program entered an infinite loop. This led to the symptom of hanging during runtime and eventually running out of memory space. As can be seen in the code, we fixed the bug by checking for when no more opening brackets are found and exiting the loop.
