@@ -1,4 +1,4 @@
-# Lab Report 2 Week 4  
+# Lab Report 3 Week 6  
   
 ## Streamlining ssh Configuration:  
 In order to make accessing my course account easier, I streamlined my ssh config such that I can use the alias `ieng6` to log in to my course account.  
