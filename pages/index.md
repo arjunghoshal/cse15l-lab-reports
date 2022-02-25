@@ -22,4 +22,4 @@ ___
 [Lab Report 1 Week 2](pages/lab-reports/lab-report-1-week-2.html)  
 [Lab Report 2 Week 4](pages/lab-reports/lab-report-2-week-4.html)  
 [Lab Report 3 Week 6](pages/lab-reports/lab-report-3-week-6.html)  
-[Lab Report 3 Week 6](pages/lab-reports/lab-report-4-week-8.html)  
+[Lab Report 4 Week 8](pages/lab-reports/lab-report-4-week-8.html)  
