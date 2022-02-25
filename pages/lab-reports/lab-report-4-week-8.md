@@ -12,7 +12,7 @@ Test Code:
 ![Snippet 1 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-1-1.PNG)  
 My Output:  
 ![Snippet 1 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-1-1.PNG)  
-<FIXABILITY>  
+FIXABILITY  
   
 ### Test Snippet #2:  
 The correct output according to [CommonMark](https://spec.commonmark.org/dingus/) is:  
@@ -23,7 +23,7 @@ Test Code:
 ![Snippet 2 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-1-2.PNG)  
 My Output:  
 ![Snippet 2 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-1-2.PNG)  
-<FIXABILITY>
+FIXABILITY
   
 ### Test Snippet #3:  
 The correct output according to [CommonMark](https://spec.commonmark.org/dingus/) is:  
@@ -34,7 +34,7 @@ Test Code:
 ![Snippet 3 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-1-3.PNG)  
 My Output:  
 ![Snippet 3 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-1-3.PNG)  
-<FIXABILITY>  
+FIXABILITY  
   
 ## Review Implementation:  
 Link to repository: [Review Repository](https://github.com/tylercyang/markdown-parse)  
@@ -48,7 +48,7 @@ Test Code:
 ![Snippet 1 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-2-1.PNG)  
 The Output:  
 ![Snippet 1 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-2-1.PNG)  
-<FIXABILITY>  
+FIXABILITY  
   
 ### Test Snippet #2:  
 The correct output according to [CommonMark](https://spec.commonmark.org/dingus/) is:  
@@ -59,7 +59,7 @@ Test Code:
 ![Snippet 2 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-2-2.PNG)  
 The Output:  
 ![Snippet 2 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-2-2.PNG)  
-<FIXABILITY>
+FIXABILITY
   
 ### Test Snippet #3:  
 The correct output according to [CommonMark](https://spec.commonmark.org/dingus/) is:  
@@ -70,4 +70,4 @@ Test Code:
 ![Snippet 3 Test Code](/cse15l-lab-reports/images/lab-report-3-test-code-2-3.PNG)  
 The Output:  
 ![Snippet 3 Test Output](/cse15l-lab-reports/images/lab-report-3-test-output-2-3.PNG)  
-<FIXABILITY>
+FIXABILITY
